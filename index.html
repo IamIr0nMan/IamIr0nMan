@@ -1,56 +1,383 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Deepak Kumar</title>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Frontend Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Inter+Tight:wght@400;500;600&family=Bai+Jamjuree:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="images/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud">
-      <h1>I'm Deepak.</h1>
-      <h2>a student.</h2>
-      <img  class="bottom-cloud" src="images/cloud.png" alt="cloud">
-      <img src="images/mountain.png" alt="mountain">
-    </div>
+</head>
 
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo">Portfolio<span style="color: #6e06f2;">.</span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <a href="#contact" class="contact-btn">Send me an email</a>
+    </nav>
 
-    <div class="middle-container">
-      <div class="profile">
-        <img class="dp" src="images/dp.jpg" alt="Display picture">
-        <h2>Hello.</h2>
-        <p class="intro">I am a student. I am currently pursuing a B.Tech. degree course in Computer Science and Engineering at <br> <a href="https://www.drait.edu.in/">Dr. Ambedkar Institute of Technology</a>. </p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="c" src="images\c.png" alt="C programming">
-          <h3>C programming</h3>
-          <p>I have a basic knowledge of C programming. I can solve basic problems related to the concepts of C like Arrays, Pointers,etc.</p>
-        </div><br>
-        <div class="skill-row">
-          <img class="web" src="images\web.png" alt="Web Development">
-          <h3>Web Development</h3>
-          <p>I have quite an interest in developing websites. I am good at HTML & CSS and I'm acquiring new information about Bootstrap,Javascript,etc. </p>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <p>You can email me by clicking at the contact me button.</p><br>
-        <a class="btn" href="mailto:iamdpk18@gmail.com">CONTACT ME</a>
-      </div>
-    </div>
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero fade-in-up">
+            <div class="hero-content">
+                <h1>Hey, I'm Developer 👋🏻</h1>
+                <h2>Frontend Developer</h2>
+                <p>I'm a frontend developer based in the world, I'll help you build beautiful websites your users will
+                    love.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">Browse Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/displayPicture.png" alt="Developer Portrait">
+            </div>
+        </section>
 
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="section-header fade-in-up">
+                <h2>Projects<span style="color: #6e06f2;">.</span></h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>TaskFlow</h3>
+                        <p>Task management system with drag-and-drop, real-time collaboration, and responsive layout.
+                        </p>
+                        <a href="#" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>EcoCart</h3>
+                        <p>E-commerce platform promoting eco-friendly products with payment integration.</p>
+                        <a href="#" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>EventPlanner</h3>
+                        <p>Event planning web application, enabling users to organise and manage events effortlessly.
+                        </p>
+                        <a href="#" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>FoodieFinder</h3>
+                        <p>Modern-looking restaurant discovery platform featuring real-time search, reviews, and
+                            ratings.</p>
+                        <a href="#" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.instagram.com/iamdeepk_18/">Instagram</a>
-      <p>© 2020 Deepak Kumar.</p>
-    </div>
+        <!-- Experience Section -->
+        <section id="experience">
+            <div class="section-header fade-in-up">
+                <h2>Experience<span style="color: #6e06f2;">.</span></h2>
+            </div>
+            <div class="experience-container fade-in-up">
+                <div class="company-tabs">
+                    <button class="company-tab active" data-company="apple">Apple</button>
+                    <button class="company-tab" data-company="microsoft">Microsoft</button>
+                    <button class="company-tab" data-company="spotify">Spotify</button>
+                    <button class="company-tab" data-company="stripe">Stripe</button>
+                    <button class="company-tab" data-company="webflow">Webflow</button>
+                </div>
+                <div class="experience-content">
+                    <div id="apple" class="experience-details active">
+                        <h3>Engineer<span> </span><span class="company">@ Apple</span></h3>
+                        <div class="period">May 2018 - Present</div>
+                        <ul class="experience-list">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Developed and shipped highly interactive web applications for Apple Music using Ember.js
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Built and shipped the Apple Music Extension within Facebook Messenger leveraging
+                                third-party and internal APIs
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to
+                                add an Apple Music player to their web apps
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="microsoft" class="experience-details">
+                        <h3>Frontend Developer<span> </span><span class="company">@ Microsoft</span></h3>
+                        <div class="period">January - April 2018</div>
+                        <ul class="experience-list">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Worked with a team to build a marketing website and e-commerce platform for blistabloc,
+                                an ambitious startup.
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Helped solidify a brand direction for blistabloc that spans both packaging and web.
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Interfaced with clients on a weekly basis, providing technological expertise.
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="spotify" class="experience-details">
+                        <h3>UI Engineer<span> </span><span class="company">@ Spotify</span></h3>
+                        <div class="period">July - December 2017</div>
+                        <ul class="experience-list">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Write modern, performant, maintainable code for a diverse array of client and internal
+                                projects
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Work with a variety of different languages, platforms, frameworks, and content
+                                management systems.
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Communicate with multi-disciplinary teams of engineers, designers, producers, and
+                                clients on a daily basis
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="stripe" class="experience-details">
+                        <h3>Frontend Developer<span> </span><span class="company">@ Stripe</span></h3>
+                        <div class="period">March - June 2017</div>
+                        <ul class="experience-list">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Built and shipped the company's first internal project management system
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Interfaced with clients on a weekly basis, providing technological expertise
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Built and shipped the company's first internal project management system
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="webflow" class="experience-details">
+                        <h3>Software Developer<span> </span><span class="company">@ Webflow</span></h3>
+                        <div class="period">January - February 2017</div>
+                        <ul class="experience-list">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Built and shipped the company's first internal project management system
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Interfaced with clients on a weekly basis, providing technological expertise
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="#6e06f2" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Built and shipped the company's first internal project management system
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="section-header fade-in-up">
+                <h2>Skills<span style="color: #6e06f2;">.</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category fade-in-up">
+                    <h4>Web Design</h4>
+                    <ul class="skill-list">
+                        <li>UI/UX Design</li>
+                        <li>Responsive Design</li>
+                        <li>Wireframing</li>
+                        <li>User Research</li>
+                    </ul>
+                </div>
+                <div class="skill-category fade-in-up">
+                    <h4>Frontend</h4>
+                    <ul class="skill-list">
+                        <li>Javascript</li>
+                        <li>ReactJS</li>
+                        <li>NextJS</li>
+                        <li>CSS3</li>
+                    </ul>
+                </div>
+                <div class="skill-category fade-in-up">
+                    <h4>Backend</h4>
+                    <ul class="skill-list">
+                        <li>NodeJs</li>
+                        <li>MongoDB</li>
+                        <li>ExpressJS</li>
+                        <li>Vercel</li>
+                    </ul>
+                </div>
+                <div class="skill-category fade-in-up">
+                    <h4>Soft Skills</h4>
+                    <ul class="skill-list">
+                        <li>Effective communication</li>
+                        <li>Collaboration</li>
+                        <li>Commitment</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-  </body>
+        <!-- Story Section -->
+        <section id="about">
+            <div class="section-header fade-in-up">
+                <h2>My Story<span style="color: #6e06f2;">.</span></h2>
+            </div>
+            <div class="story-content fade-in-up">
+                <p>My journey as a front-end developer started back in 2010, working as a <span
+                        class="highlight">freelancer</span> for clients all over the world for several years.</p>
+                <p>After being on my own for a while, I decided to enter the corporate world, and I started working as a
+                    software developer at <span class="highlight">Webflow</span>, the same platform I was using with my
+                    freelance clients.</p>
+                <p>After some exciting months of work at Webflow, I decided to transition to <span
+                        class="highlight">Stripe</span>, where I returned what I love: front-end development.</p>
+                <p>My <span class="highlight">success</span> quickly compounded I started receiving job offers from the
+                    biggest names in the industry.</p>
+                <p>All these opportunities led me to travel the world. Eventually, however, I decided to settle down for
+                    a more calm and simple routine, and I'm now working at Apple. And you know what? I love what I do!
+                    💜</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="section-header fade-in-up">
+                <h2>Contact<span style="color: #6e06f2;">.</span></h2>
+            </div>
+            <div class="contact-container fade-in-up">
+                <div class="contact-content">
+                    <h2>Interested in working together?</h2>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your
+                        visions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                    <div class="contact-buttons">
+                        <a href="mailto:hello@example.com" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary">Browse Projects</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Custom JavaScript -->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
