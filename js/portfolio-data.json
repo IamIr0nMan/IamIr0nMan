@@ -1,0 +1,220 @@
+{
+  "personal": {
+    "name": "Deepak Kumar",
+    "title": "Software Engineer",
+    "location": "India",
+    "description": "I'm a passionate Software Engineer with expertise in full-stack development, specializing in React, Node.js, and cloud technologies.",
+    "email": "deepakkumar.work@gmail.com",
+    "profileImage": "images/displayPicture.png"
+  },
+  "navigation": {
+    "logo": "Portfolio.",
+    "links": [
+      { "text": "Home", "href": "#home" },
+      { "text": "Projects", "href": "#projects" },
+      { "text": "About", "href": "#about" }
+    ],
+    "contactButton": "Send me an email"
+  },
+  "hero": {
+    "greeting": "Hey, I'm Deepak Kumar 👋🏻",
+    "title": "Software Engineer",
+    "description": "I'm a passionate Software Engineer with expertise in full-stack development, specializing in React, Node.js, and cloud technologies. I love building scalable applications and solving complex problems.",
+    "buttons": [
+      { "text": "Get In Touch", "href": "#contact", "type": "primary" },
+      { "text": "Browse Projects", "href": "#projects", "type": "secondary" }
+    ]
+  },
+  "projects": [
+    {
+      "id": "taskflow",
+      "name": "TaskFlow2.0",
+      "description": "Advanced task management system with drag-and-drop functionality, real-time collaboration, and responsive design.",
+      "icon": "fas fa-tasks",
+      "link": "#"
+    },
+    {
+      "id": "ecocart",
+      "name": "EcoCart",
+      "description": "E-commerce platform promoting eco-friendly products with secure payment integration and inventory management.",
+      "icon": "fas fa-shopping-cart",
+      "link": "#"
+    },
+    {
+      "id": "eventplanner",
+      "name": "EventPlanner",
+      "description": "Comprehensive event planning web application with user management, scheduling, and real-time updates.",
+      "icon": "fas fa-calendar-alt",
+      "link": "#"
+    },
+    {
+      "id": "foodiefinder",
+      "name": "FoodieFinder",
+      "description": "Modern restaurant discovery platform with real-time search, reviews, ratings, and location-based recommendations.",
+      "icon": "fas fa-utensils",
+      "link": "#"
+    }
+  ],
+  "experience": [
+    {
+      "id": "google",
+      "company": "Google",
+      "position": "Software Engineer",
+      "period": "July 2023 - Present",
+      "achievements": [
+        "Developed and maintained scalable web applications using React, Node.js, and Google Cloud Platform",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions",
+        "Implemented best practices for code quality, testing, and deployment automation"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "company": "Microsoft",
+      "position": "Software Engineer",
+      "period": "January 2023 - June 2023",
+      "achievements": [
+        "Built and optimized web applications using React, TypeScript, and Azure services",
+        "Worked on improving application performance and user experience",
+        "Participated in code reviews and mentored junior developers"
+      ]
+    },
+    {
+      "id": "amazon",
+      "company": "Amazon",
+      "position": "Software Development Engineer",
+      "period": "July 2022 - December 2022",
+      "achievements": [
+        "Developed full-stack applications using React, Node.js, and AWS services",
+        "Implemented microservices architecture and RESTful APIs",
+        "Contributed to improving system reliability and performance"
+      ]
+    },
+    {
+      "id": "netflix",
+      "company": "Netflix",
+      "position": "Frontend Engineer",
+      "period": "January 2022 - June 2022",
+      "achievements": [
+        "Built responsive user interfaces using React and modern CSS frameworks",
+        "Optimized application performance and accessibility",
+        "Collaborated with design and backend teams to deliver seamless user experiences"
+      ]
+    },
+    {
+      "id": "meta",
+      "company": "Meta",
+      "position": "Software Engineer",
+      "period": "July 2021 - December 2021",
+      "achievements": [
+        "Developed web applications using React and modern JavaScript frameworks",
+        "Worked on improving user engagement and platform performance",
+        "Contributed to open-source projects and internal tools"
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      {
+        "name": "Frontend Development",
+        "skills": [
+          "React.js",
+          "JavaScript (ES6+)",
+          "TypeScript",
+          "HTML5",
+          "CSS3",
+          "Next.js"
+        ]
+      },
+      {
+        "name": "Backend Development",
+        "skills": [
+          "Node.js",
+          "Express.js",
+          "Python",
+          "Java",
+          "RESTful APIs",
+          "GraphQL"
+        ]
+      },
+      {
+        "name": "Databases & Cloud",
+        "skills": [
+          "MongoDB",
+          "PostgreSQL",
+          "MySQL",
+          "AWS",
+          "Google Cloud Platform",
+          "Docker"
+        ]
+      },
+      {
+        "name": "Tools & Technologies",
+        "skills": ["Git", "GitHub", "VS Code", "Postman", "Jest", "Webpack"]
+      },
+      {
+        "name": "Soft Skills",
+        "skills": [
+          "Problem Solving",
+          "Team Collaboration",
+          "Communication",
+          "Leadership",
+          "Agile/Scrum",
+          "Code Review"
+        ]
+      }
+    ]
+  },
+  "story": {
+    "title": "My Story.",
+    "paragraphs": [
+      "My journey as a Software Engineer began with a passion for creating innovative solutions and building applications that make a difference. I started my career working on various <span class=\"highlight\">full-stack projects</span> that helped me develop a strong foundation in both frontend and backend technologies.",
+      "After gaining experience at several tech companies, I had the opportunity to work at <span class=\"highlight\">Google</span>, where I've been able to contribute to large-scale applications and learn from some of the best engineers in the industry.",
+      "Throughout my career, I've worked with companies like <span class=\"highlight\">Microsoft</span>, <span class=\"highlight\">Amazon</span>, and <span class=\"highlight\">Meta</span>, each experience has taught me valuable lessons about building scalable systems and working in collaborative environments.",
+      "I believe in continuous learning and staying updated with the latest technologies. My <span class=\"highlight\">success</span> comes from my ability to adapt quickly, solve complex problems, and deliver high-quality solutions.",
+      "Currently, I'm focused on building innovative web applications and contributing to open-source projects. I love what I do, and I'm always excited to take on new challenges! 💜"
+    ]
+  },
+  "contact": {
+    "title": "Contact.",
+    "heading": "Interested in working together?",
+    "description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Let's build something amazing together!",
+    "resumeFileId": "1r8uTCaposUUQXuSa4MJaUA97QgCHkrxz",
+    "socialLinks": [
+      {
+        "platform": "linkedin",
+        "icon": "fab fa-linkedin",
+        "url": "https://linkedin.com/in/deepakkumar"
+      },
+      {
+        "platform": "github",
+        "icon": "fab fa-github",
+        "url": "https://github.com/deepakkumar"
+      },
+      {
+        "platform": "twitter",
+        "icon": "fab fa-twitter",
+        "url": "https://twitter.com/deepakkumar"
+      },
+      {
+        "platform": "instagram",
+        "icon": "fab fa-instagram",
+        "url": "https://instagram.com/deepakkumar"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Get In Touch",
+        "href": "mailto:deepakkumar.work@gmail.com",
+        "type": "primary"
+      },
+      { "text": "Browse Projects", "href": "#projects", "type": "secondary" }
+    ]
+  },
+  "theme": {
+    "primaryColor": "#6e06f2",
+    "secondaryColor": "#24262f",
+    "textColor": "#4e525a",
+    "lightTextColor": "#6b7280",
+    "backgroundColor": "#fcfcfd"
+  }
+}
