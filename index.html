@@ -29,6 +29,11 @@
     <!-- Navigation -->
     <nav>
         <a href="#" class="logo">Portfolio<span style="color: #6e06f2;">.</span></a>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -36,6 +41,30 @@
         </ul>
         <a href="#contact" class="contact-btn">Send me an email</a>
     </nav>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <div class="drawer-content">
+            <div class="drawer-header">
+                <button class="drawer-close" id="drawer-close">
+                    <div class="close-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="close-line close-line-1" d="M18 6L6 18" stroke="#24262f" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="close-line close-line-2" d="M6 6L18 18" stroke="#24262f" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </button>
+            </div>
+            <ul class="drawer-nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="drawer-contact-btn">Send me an email</a></li>
+            </ul>
+        </div>
+    </div>
 
     <!-- Main Content -->
     <main>

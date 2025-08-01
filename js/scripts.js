@@ -30,6 +30,75 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
+// Mobile drawer functionality
+const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+const mobileDrawer = document.getElementById("mobile-drawer");
+const drawerClose = document.getElementById("drawer-close");
+
+if (mobileMenuToggle && mobileDrawer) {
+  // Open drawer
+  mobileMenuToggle.addEventListener("click", () => {
+    mobileMenuToggle.classList.add("active");
+    mobileDrawer.classList.add("open");
+    document.body.style.overflow = "hidden"; // Prevent background scroll
+
+    // Trigger animations by removing and re-adding classes
+    const navItems = mobileDrawer.querySelectorAll(".drawer-nav-links li");
+    const header = mobileDrawer.querySelector(".drawer-header");
+
+    // Reset animations
+    navItems.forEach((item) => {
+      item.style.animation = "none";
+      item.offsetHeight; // Trigger reflow
+    });
+    header.style.animation = "none";
+    header.offsetHeight; // Trigger reflow
+
+    // Restart animations
+    header.style.animation = "";
+    navItems.forEach((item) => {
+      item.style.animation = "";
+    });
+  });
+
+  // Close drawer with close button
+  if (drawerClose) {
+    drawerClose.addEventListener("click", () => {
+      closeDrawer();
+    });
+  }
+
+  // Close drawer when clicking on a link
+  const drawerLinks = mobileDrawer.querySelectorAll("a");
+  drawerLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      closeDrawer();
+    });
+  });
+
+  // Close drawer when clicking outside
+  mobileDrawer.addEventListener("click", (e) => {
+    if (e.target === mobileDrawer) {
+      closeDrawer();
+    }
+  });
+
+  function closeDrawer() {
+    mobileMenuToggle.classList.remove("active");
+    mobileDrawer.classList.remove("open");
+    document.body.style.overflow = ""; // Restore background scroll
+
+    // Reset animations when closing
+    const navItems = mobileDrawer.querySelectorAll(".drawer-nav-links li");
+    const header = mobileDrawer.querySelector(".drawer-header");
+
+    navItems.forEach((item) => {
+      item.style.animation = "none";
+    });
+    header.style.animation = "none";
+  }
+}
+
 // Intersection Observer for animations
 const observerOptions = {
   threshold: 0.1,
