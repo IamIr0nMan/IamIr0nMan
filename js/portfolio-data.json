@@ -1,10 +1,10 @@
 {
   "personal": {
     "name": "Deepak Kumar",
-    "title": "Software Engineer",
-    "location": "India",
-    "description": "I'm a passionate Software Engineer with expertise in full-stack development, specializing in React, Node.js, and cloud technologies.",
-    "email": "deepakkumar.work@gmail.com",
+    "title": "Software Development Engineer in Test",
+    "location": "Gurugram, Haryana, India",
+    "description": "I'm a passionate Software Development Engineer in Test with expertise in test automation, ETL testing, and quality assurance. I specialize in Playwright, Selenium, and building robust test frameworks.",
+    "email": "iamdpk18@gmail.com",
     "profileImage": "images/displayPicture.png"
   },
   "navigation": {
@@ -18,8 +18,8 @@
   },
   "hero": {
     "greeting": "Hey, I'm Deepak Kumar 👋🏻",
-    "title": "Software Engineer",
-    "description": "I'm a passionate Software Engineer with expertise in full-stack development, specializing in React, Node.js, and cloud technologies. I love building scalable applications and solving complex problems.",
+    "title": "Software Development Engineer in Test",
+    "description": "I'm a Software Development Engineer in Test with expertise in test automation, ETL testing, and quality assurance. I build robust test frameworks and ensure software quality at scale.",
     "buttons": [
       { "text": "Get In Touch", "href": "#contact", "type": "primary" },
       { "text": "Browse Projects", "href": "#projects", "type": "secondary" }
@@ -27,139 +27,119 @@
   },
   "projects": [
     {
-      "id": "taskflow",
-      "name": "TaskFlow2.0",
-      "description": "Advanced task management system with drag-and-drop functionality, real-time collaboration, and responsive design.",
-      "icon": "fas fa-tasks",
+      "id": "flashchat",
+      "name": "Flash Chat App",
+      "description": "Real-time group chat application built with Flutter and Firebase, featuring secure authentication and instant message synchronization.",
+      "icon": "fas fa-comments",
       "link": "#"
     },
     {
-      "id": "ecocart",
-      "name": "EcoCart",
-      "description": "E-commerce platform promoting eco-friendly products with secure payment integration and inventory management.",
-      "icon": "fas fa-shopping-cart",
+      "id": "etl-automation",
+      "name": "ETL Testing Automation",
+      "description": "Automated ETL testing framework for bank statements handling 4.5 crore transactions, with vendor switching and priority configurations.",
+      "icon": "fas fa-database",
       "link": "#"
     },
     {
-      "id": "eventplanner",
-      "name": "EventPlanner",
-      "description": "Comprehensive event planning web application with user management, scheduling, and real-time updates.",
-      "icon": "fas fa-calendar-alt",
+      "id": "nach-system",
+      "name": "NACH EMI Collection System",
+      "description": "Comprehensive testing framework for NACH-based EMI collection system handling ₹30 Cr/month with mandate creation and auto-debit validation.",
+      "icon": "fas fa-credit-card",
       "link": "#"
     },
     {
-      "id": "foodiefinder",
-      "name": "FoodieFinder",
-      "description": "Modern restaurant discovery platform with real-time search, reviews, ratings, and location-based recommendations.",
-      "icon": "fas fa-utensils",
+      "id": "razorpay-flow",
+      "name": "Razorpay Repayment Flow",
+      "description": "Automated testing for Razorpay-based repayment flow handling ₹1 Cr/month with end-to-end transaction accuracy and reconciliation.",
+      "icon": "fas fa-money-bill-wave",
       "link": "#"
     }
   ],
   "experience": [
     {
-      "id": "google",
-      "company": "Google",
-      "position": "Software Engineer",
-      "period": "July 2023 - Present",
+      "id": "recur-club-sdet",
+      "company": "Recur Club",
+      "position": "Software Development Engineer in Test",
+      "period": "July 2024 - Present",
       "achievements": [
-        "Developed and maintained scalable web applications using React, Node.js, and Google Cloud Platform",
-        "Collaborated with cross-functional teams to deliver high-quality software solutions",
-        "Implemented best practices for code quality, testing, and deployment automation"
+        "Automated ETL testing for bank statements as volume scaled from 6 lakh to 4.5 crore transactions in a single year",
+        "Led testing for NACH-based EMI collection system handling ₹30 Cr/month; validated mandate creation, auto-debit, and failure logic",
+        "Automated Razorpay-based repayment flow (₹1 Cr/month); ensured end-to-end accuracy for transaction creation and reconciliation",
+        "Developed end-to-end test automation for debt recommendation engine; eliminated manual testing, achieving 75% match rate",
+        "Maintained and optimized test suites for 6+ backend services (Java, TestNG, Rest Assured) and frontend modules (Playwright, TypeScript)",
+        "Built data-verification microservice for mail/NACH execution; integrated pre/post checks via Excel reports & Slack alerts"
       ]
     },
     {
-      "id": "microsoft",
-      "company": "Microsoft",
-      "position": "Software Engineer",
-      "period": "January 2023 - June 2023",
+      "id": "recur-club-intern",
+      "company": "Recur Club",
+      "position": "SDET Intern",
+      "period": "January 2024 - June 2024",
       "achievements": [
-        "Built and optimized web applications using React, TypeScript, and Azure services",
-        "Worked on improving application performance and user experience",
-        "Participated in code reviews and mentored junior developers"
+        "Automated 'Pay Now' feature handling ₹5 Cr/month in EMI payments; created robust test plans covering delays and validation logic",
+        "Conducted manual & exploratory testing for onboarding and digital signing on mobile web",
+        "Built Playwright + TypeScript automation suite for onboarding flows; covered form validations, e-signatures, and UI logic"
       ]
     },
     {
-      "id": "amazon",
-      "company": "Amazon",
-      "position": "Software Development Engineer",
-      "period": "July 2022 - December 2022",
+      "id": "eightfold-ai",
+      "company": "Eightfold AI",
+      "position": "QA Intern",
+      "period": "April 2023 - August 2023",
       "achievements": [
-        "Developed full-stack applications using React, Node.js, and AWS services",
-        "Implemented microservices architecture and RESTful APIs",
-        "Contributed to improving system reliability and performance"
-      ]
-    },
-    {
-      "id": "netflix",
-      "company": "Netflix",
-      "position": "Frontend Engineer",
-      "period": "January 2022 - June 2022",
-      "achievements": [
-        "Built responsive user interfaces using React and modern CSS frameworks",
-        "Optimized application performance and accessibility",
-        "Collaborated with design and backend teams to deliver seamless user experiences"
-      ]
-    },
-    {
-      "id": "meta",
-      "company": "Meta",
-      "position": "Software Engineer",
-      "period": "July 2021 - December 2021",
-      "achievements": [
-        "Developed web applications using React and modern JavaScript frameworks",
-        "Worked on improving user engagement and platform performance",
-        "Contributed to open-source projects and internal tools"
+        "Built BDD-based regression test suite for Talent Acquisition platform using pytest, pytest-BDD, and Selenium",
+        "Replaced manual testing with scalable automation frameworks, reducing regression testing time by 50%"
       ]
     }
   ],
   "skills": {
     "categories": [
       {
-        "name": "Frontend Development",
+        "name": "Programming Languages",
         "skills": [
-          "React.js",
-          "JavaScript (ES6+)",
-          "TypeScript",
-          "HTML5",
-          "CSS3",
-          "Next.js"
+          "Python",
+          "Java",
+          "JavaScript",
+          "TypeScript"
         ]
       },
       {
-        "name": "Backend Development",
+        "name": "Testing Frameworks & Tools",
         "skills": [
-          "Node.js",
-          "Express.js",
-          "Python",
-          "Java",
-          "RESTful APIs",
-          "GraphQL"
+          "Playwright",
+          "Selenium",
+          "TestNG",
+          "pytest",
+          "BDD",
+          "Rest Assured"
         ]
       },
       {
         "name": "Databases & Cloud",
         "skills": [
-          "MongoDB",
-          "PostgreSQL",
           "MySQL",
-          "AWS",
-          "Google Cloud Platform",
-          "Docker"
+          "MongoDB",
+          "Firebase",
+          "Firestore"
         ]
       },
       {
         "name": "Tools & Technologies",
-        "skills": ["Git", "GitHub", "VS Code", "Postman", "Jest", "Webpack"]
+        "skills": [
+          "Git",
+          "Jenkins",
+          "CI/CD",
+          "Flutter"
+        ]
       },
       {
-        "name": "Soft Skills",
+        "name": "Specialized Skills",
         "skills": [
-          "Problem Solving",
-          "Team Collaboration",
-          "Communication",
-          "Leadership",
-          "Agile/Scrum",
-          "Code Review"
+          "ETL Pipeline Validation",
+          "Source-to-Target Mapping",
+          "Data Integrity Testing",
+          "Test Automation",
+          "Quality Assurance"
         ]
       }
     ]
@@ -167,11 +147,12 @@
   "story": {
     "title": "My Story.",
     "paragraphs": [
-      "My journey as a Software Engineer began with a passion for creating innovative solutions and building applications that make a difference. I started my career working on various <span class=\"highlight\">full-stack projects</span> that helped me develop a strong foundation in both frontend and backend technologies.",
-      "After gaining experience at several tech companies, I had the opportunity to work at <span class=\"highlight\">Google</span>, where I've been able to contribute to large-scale applications and learn from some of the best engineers in the industry.",
-      "Throughout my career, I've worked with companies like <span class=\"highlight\">Microsoft</span>, <span class=\"highlight\">Amazon</span>, and <span class=\"highlight\">Meta</span>, each experience has taught me valuable lessons about building scalable systems and working in collaborative environments.",
-      "I believe in continuous learning and staying updated with the latest technologies. My <span class=\"highlight\">success</span> comes from my ability to adapt quickly, solve complex problems, and deliver high-quality solutions.",
-      "Currently, I'm focused on building innovative web applications and contributing to open-source projects. I love what I do, and I'm always excited to take on new challenges! 💜"
+      "My journey as a Software Development Engineer in Test began with a passion for ensuring software quality and building robust test automation frameworks. I started my career at <span class=\"highlight\">Eightfold AI</span> as a QA Intern, where I learned the fundamentals of test automation and quality assurance.",
+      "After gaining valuable experience in BDD-based testing and Selenium automation, I joined <span class=\"highlight\">Recur Club</span> as an SDET Intern, where I had the opportunity to work on complex financial systems and payment flows.",
+      "Currently, I work as a <span class=\"highlight\">Software Development Engineer in Test</span> at Recur Club, where I've been instrumental in automating ETL testing for massive transaction volumes and building comprehensive test frameworks for critical financial systems.",
+      "Throughout my career, I've specialized in <span class=\"highlight\">test automation</span>, working with technologies like Playwright, Selenium, TestNG, and pytest. I've successfully handled testing for systems processing crores of transactions monthly.",
+      "I believe in continuous learning and staying updated with the latest testing methodologies and tools. My <span class=\"highlight\">success</span> comes from my ability to build scalable test frameworks, ensure data integrity, and deliver high-quality software solutions.",
+      "Currently, I'm focused on advancing test automation practices and contributing to the development of robust quality assurance processes. I love what I do, and I'm always excited to take on new testing challenges! 💜"
     ]
   },
   "contact": {
@@ -183,28 +164,28 @@
       {
         "platform": "linkedin",
         "icon": "fab fa-linkedin",
-        "url": "https://linkedin.com/in/deepakkumar"
+        "url": "https://linkedin.com/in/deepak1805"
       },
       {
         "platform": "github",
         "icon": "fab fa-github",
-        "url": "https://github.com/deepakkumar"
+        "url": "https://github.com/IamIr0nMan"
       },
       {
         "platform": "twitter",
         "icon": "fab fa-twitter",
-        "url": "https://twitter.com/deepakkumar"
+        "url": "https://twitter.com/iamdeepk18"
       },
       {
         "platform": "instagram",
         "icon": "fab fa-instagram",
-        "url": "https://instagram.com/deepakkumar"
+        "url": "https://instagram.com/iamdeepk_18"
       }
     ],
     "buttons": [
       {
         "text": "Get In Touch",
-        "href": "mailto:deepakkumar.work@gmail.com",
+        "href": "mailto:iamdpk18@gmail.com",
         "type": "primary"
       },
       { "text": "Browse Projects", "href": "#projects", "type": "secondary" }
