@@ -5,17 +5,6 @@
   <img src="https://img.shields.io/badge/Status-Available%20for%20Opportunities-green?style=for-the-badge" alt="Status">
 </div>
 
-## 🚀 About Me
-
-I'm a **Software Development Engineer in Test** with expertise in test automation, ETL testing, and quality assurance. I specialize in building robust test frameworks and ensuring software quality at scale.
-
-### 🎯 What I Do
-- **Test Automation**: Playwright, Selenium, TestNG, pytest
-- **ETL Testing**: Data pipeline validation and source-to-target mapping
-- **Quality Assurance**: End-to-end testing for financial systems
-- **Framework Development**: Scalable automation solutions
-
----
 
 ## 🛠️ Tech Stack
 
@@ -24,13 +13,6 @@ I'm a **Software Development Engineer in Test** with expertise in test automatio
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-
-### Testing Frameworks & Tools
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![TestNG](https://img.shields.io/badge/TestNG-FF6B6B?style=for-the-badge&logo=testng&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Rest Assured](https://img.shields.io/badge/Rest%20Assured-00ADD8?style=for-the-badge&logo=rest-assured&logoColor=white)
 
 ### Databases & Cloud
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -47,7 +29,7 @@ I'm a **Software Development Engineer in Test** with expertise in test automatio
 
 ## 💼 Experience
 
-### 🏢 **Recur Club** - Software Development Engineer
+### 🏢 **Recur Club** - Software Engineer
 *July 2024 - Present*
 
 ### 🏢 **Recur Club** - Software Engineer Intern
@@ -77,16 +59,6 @@ I'm a **Software Development Engineer in Test** with expertise in test automatio
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </div>
-
----
-
-## 📈 Key Achievements
-
-- ✅ **Scaled ETL Testing**: From 6 lakh to 4.5 crore transactions annually
-- ✅ **Financial Systems**: Tested systems handling ₹30+ Cr/month
-- ✅ **Automation Impact**: 50% reduction in regression testing time
-- ✅ **Framework Development**: Built and maintained 6+ service test suites
-- ✅ **Data Integrity**: Ensured 100% accuracy in transaction reconciliation
 
 ---
 
