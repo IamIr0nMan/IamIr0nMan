@@ -47,27 +47,14 @@ I'm a **Software Development Engineer in Test** with expertise in test automatio
 
 ## 💼 Experience
 
-### 🏢 **Recur Club** - Software Development Engineer in Test
+### 🏢 **Recur Club** - Software Development Engineer
 *July 2024 - Present*
 
-- **ETL Testing Automation**: Automated testing for bank statements handling **4.5 crore transactions** annually
-- **NACH EMI Collection**: Built testing framework for ₹30 Cr/month EMI collection system
-- **Razorpay Integration**: Automated repayment flow testing for ₹1 Cr/month transactions
-- **Test Framework Development**: Maintained 6+ backend services and frontend modules
-- **Data Verification**: Built microservice for mail/NACH execution with Excel reports & Slack alerts
-
-### 🏢 **Recur Club** - SDET Intern
+### 🏢 **Recur Club** - Software Engineer Intern
 *January 2024 - June 2024*
-
-- **Pay Now Feature**: Automated ₹5 Cr/month EMI payment testing
-- **Mobile Web Testing**: Manual & exploratory testing for onboarding flows
-- **Playwright Automation**: Built TypeScript suite for onboarding with e-signatures
 
 ### 🏢 **Eightfold AI** - QA Intern
 *April 2023 - August 2023*
-
-- **BDD Testing**: Built regression test suite using pytest-BDD and Selenium
-- **Automation Impact**: Reduced regression testing time by **50%**
 
 ---
 
